@@ -42,7 +42,7 @@ export const RegisterPage = () => {
 
     return (
 
-        <AuthLayout title='Login'>
+        <AuthLayout title='Registrar'>
             <form onSubmit={onSubmit}  
             className="animate__animated animate__fadeIn animated__faster "
 

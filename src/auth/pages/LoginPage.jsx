@@ -40,7 +40,7 @@ export const LoginPage = () => {
 
     return (
 
-        <AuthLayout title='Login'>
+        <AuthLayout title='Iniciar sesion'>
             <form onSubmit={onSubmit} 
             className="animate__animated animate__fadeIn animated__faster "
              >
@@ -81,7 +81,7 @@ export const LoginPage = () => {
                         <Button type='submit' variant='contained' fullWidth
                         disabled={isChecking}
                         >
-                            Login
+                            Iniciar sesion
                         </Button>
                     </Grid>
                     <Grid item xs={12} sm={6}>
